@@ -1,11 +1,14 @@
 :root {
     --primary: #3DC73C;
     --primary2: #65C21B;
-    --secondary: #9FF348;
+    --secondary: #9FF348;;
+
     --dark-primary: #444444;
     --dark-secondary: #939B9E;
     --text-white: #ffffff;
     --light-gray: #E7E7E7;
+    --groceryColor:#3DC73C;
+    --groceryColor2: #9FF348;
 }
 
 body {
@@ -184,7 +187,7 @@ body {
 
 /* ------------------------ NavBar with Search ----------------------- */
 .custom-header {
-    background-color: var(--primary);
+    background-color: var(--groceryColor);
     height: 55px;
     position: fixed;
     width: 100%;
@@ -229,7 +232,7 @@ body {
 }
 
 .custom-header .search-container .search .category-dropdown .all-categories-btn {
-    background-color: var(--secondary);
+    background-color: var(--groceryColor2);
     border-radius: 28px 0 0 28px;
     color: var(--text-white);
     margin: 2px;
@@ -254,7 +257,7 @@ body {
 }
 
 .custom-header .search-container .search .search-btn {
-    background-color: var(--secondary);
+    background-color: var(--groceryColor2);
     border-radius: 0 28px 28px 0;
     margin: 2px;
 }
@@ -1643,10 +1646,11 @@ body {
     margin: 5px;
     margin-bottom: 15px;
     width: 204px;
-    color: #000 !important;
+    color: #3DC73C !important;
     background-color: transparent !important;
-    border: 1px solid #E8AA13;
+    border: 1px solid #3DC73C;
 }
+
 
 @media (max-width: 767px) {
     .profile .user-menu-btn .btn {
@@ -1657,7 +1661,8 @@ body {
 
 
 .profile .user-menu-btn .btn:hover {
-    background-color: var(--secondary) !important;
+    background-color: #3DC73C!important;
+    color: #fff!important;
 }
 
 .profile-update-header h4 {
@@ -1678,11 +1683,16 @@ body {
 .profile-update-inner input {
     margin-bottom: 20px;
 }
-
-.profile-update-btn .btn {
-    color: #000 !important;
+.profile-update-btn .btn{
+    border-color: #3DC73C;
+    color: #3DC73C!important;
+    transition: all 0.5s ease;
 }
-
+.profile-update-btn .btn:hover{
+   background: #3DC73C;
+    color: #fff!important;
+    transition: all 0.8s ease;
+}
 .profile-update-wrapper {
     display: flex;
     justify-content: start;
@@ -1732,7 +1742,7 @@ body {
 }
 
 .order-table-inner .view-btn {
-    color: #009432;
+    color: #3DC73C;
 }
 
 .order-table-inner .invoice-btn {
@@ -1819,7 +1829,7 @@ body {
 }
 
 .wishlist-wrapper .wishlist-inner .table tr .add-cart {
-    color: var(--primary)
+    color: var(--primary);
 }
 
 .wishlist-wrapper .wishlist-inner .table tr .delete {
@@ -3323,7 +3333,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .brand-percentage {
-    background: #0080D9;
+    background:  #3DC73C;
     width: 40px;
     height: 40px;
     position: relative;
@@ -3350,7 +3360,7 @@ input[type=range]:focus::-ms-fill-upper {
     left: 0;
     height: 30px;
     width: 30px;
-    background: #0080D9;
+    background: #3DC73C;
 }
 
 .brand-percentage i {
@@ -3369,7 +3379,7 @@ input[type=range]:focus::-ms-fill-upper {
     justify-content: center;
     text-align: center;
     padding-top: 5px;
-    background: #0080D9;
+    background: #3DC73C;
 
 }
 
@@ -3553,13 +3563,56 @@ input[type=range]:focus::-ms-fill-upper {
 
     #alphabert-list {
         margin-left: 0;
-    }
+    }    
+}
+/* Footer Banner */
+#footer-banner .position-relative{
+    position: relative;
+} 
+#footer-banner   .foot-banner{
+    background: url(../images/footer-banner/banner-10.png);
+    background-size: cover;
+    padding: 84px 78px;
+    clear: both;
+    display: table;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 230px;
+    margin-top: 20px;
+}
+#footer-banner .foot-ban-right-img{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    max-width: 40%;
+}
+#footer-banner .footer-share .google-icon img{
+    height: 200px;
+    width: 200px;
 }
 
+#footer-banner .footer-share .app-icon img{
+    height:60px;
+    width: 200px;
+    margin-right: 30px;
+}
+#footer-banner .footer-share{
+    display: flex;
+    align-items: center;
+}
+#footer-banner .footer-banner-content h3{
+        font-size: 49px;
+        color: #000;
+        padding-bottom: 30px;
 
-
-
-
-
-
-/* ==========================  */
+}
+#footer-banner .footer-banner-content p{
+    font-size:18px;
+}
+@media (max-width: 414px) {
+    #footer-banner .footer-share{
+        display:block;
+        align-items: center;
+    }
+}
