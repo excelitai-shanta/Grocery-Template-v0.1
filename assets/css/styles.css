@@ -1,5 +1,6 @@
 :root {
-    --primary: #FF6000;
+    --primary: #3DC73C;
+;
     --secondary: #FFA800;
     --dark-primary: #444444;
     --dark-secondary: #939B9E;
@@ -1537,7 +1538,7 @@ body {
     border-radius: 50%;
     margin: auto;
     margin-bottom: 20px;
-    border: 2px solid #FF6000;
+    border: 2px solid #3DC73C;
 }
 
 .user-info h4 {
@@ -1551,10 +1552,11 @@ body {
     margin: 5px;
     margin-bottom: 15px;
     width: 204px;
-    color: #000 !important;
+    color: #3DC73C !important;
     background-color: transparent !important;
-    border: 1px solid #E8AA13;
+    border: 1px solid #3DC73C;
 }
+
 
 @media (max-width: 767px) {
     .profile .user-menu-btn .btn {
@@ -1565,7 +1567,8 @@ body {
 
 
 .profile .user-menu-btn .btn:hover {
-    background-color: var(--secondary) !important;
+    background-color: #3DC73C!important;
+    color: #fff!important;
 }
 
 .profile-update-header h4 {
@@ -1586,11 +1589,16 @@ body {
 .profile-update-inner input {
     margin-bottom: 20px;
 }
-
-.profile-update-btn .btn {
-    color: #000 !important;
+.profile-update-btn .btn{
+    border-color: #3DC73C;
+    color: #3DC73C!important;
+    transition: all 0.5s ease;
 }
-
+.profile-update-btn .btn:hover{
+   background: #3DC73C;
+    color: #fff!important;
+    transition: all 0.8s ease;
+}
 .profile-update-wrapper {
     display: flex;
     justify-content: start;
@@ -1623,7 +1631,7 @@ body {
 }
 
 .order-table-inner .table thead {
-    background: #FF6000;
+    background: #3DC73C;
 }
 
 .order-table-inner .table thead tr th {
@@ -1640,7 +1648,7 @@ body {
 }
 
 .order-table-inner .view-btn {
-    color: #009432;
+    color: #3DC73C;
 }
 
 .order-table-inner .invoice-btn {
@@ -1718,7 +1726,7 @@ body {
 }
 
 .wishlist-wrapper .wishlist-inner .table tr .price-clr {
-    color: #FF6000;
+    color: #3DC73C;
     font-weight: 600;
 }
 
@@ -1727,7 +1735,7 @@ body {
 }
 
 .wishlist-wrapper .wishlist-inner .table tr .add-cart {
-    color: var(--primary)
+    color: var(--primary);
 }
 
 .wishlist-wrapper .wishlist-inner .table tr .delete {
@@ -1743,10 +1751,10 @@ body {
 }
 
 .wishlist-wrapper .wishlist-inner .wishlist-btn-holder .wishlist-btn1 {
-    border: 1px solid #FF6000;
+    border: 1px solid #3DC73C;
     padding: 8px 30px;
     margin: 20px 10px;
-    color: #FF6000;
+    color: #3DC73C;
     font-weight: 600;
     text-transform: capitalize;
     font-size: 18px;
@@ -1754,13 +1762,13 @@ body {
 }
 
 .wishlist-wrapper .wishlist-inner .wishlist-btn-holder .wishlist-btn1:hover {
-    background-color: #FF6000;
+    background-color: #3DC73C;
     color: #fff;
 }
 
 .wishlist-wrapper .wishlist-inner .wishlist-btn-holder .wishlist-btn2 {
-    border: 1px solid #FF6000;
-    background: #FF6000;
+    border: 1px solid #3DC73C;
+    background: #3DC73C;
     padding: 8px 60px;
     margin: 20px 10px;
     color: #fff;
@@ -1771,8 +1779,8 @@ body {
 }
 
 .wishlist-wrapper .wishlist-inner .wishlist-btn-holder .wishlist-btn2:hover {
-    border: 1px solid #FF6000;
-    color: #FF6000;
+    border: 1px solid #3DC73C;
+    color: #3DC73C;
     background: transparent;
 }
 
@@ -1901,7 +1909,7 @@ body {
 }
 
 .checkout-form-wrap .checkout-form-inner .checkout-product-cont .total-clr {
-    color: #FF6000;
+    color: #3DC73C;
     font-weight: 600;
 }
 
@@ -1922,8 +1930,8 @@ body {
 }
 
 .checkout-form-wrap .checkout-form-inner .checkout-button-holder .order-btn {
-    border: 1px solid #FF6000;
-    background: #FF6000;
+    border: 1px solid #3DC73C;
+    background: #3DC73C;
     padding: 8px 40px;
     margin: 20px 10px;
     color: #fff;
@@ -1934,8 +1942,8 @@ body {
 }
 
 .checkout-form-wrap .checkout-form-inner .checkout-button-holder .order-btn:hover {
-    border: 1px solid #FF6000;
-    color: #FF6000;
+    border: 1px solid #3DC73C;
+    color: #3DC73C;
     background: #fff;
 }
 
@@ -2379,7 +2387,7 @@ body {
 }
 
 .login-page h3 {
-    color: #FF6000;
+    color: #3DC73C;
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
@@ -2396,7 +2404,7 @@ body {
 }
 
 .signUp-wrapper .create-btn {
-    color: #FF6000;
+    color: #3DC73C;
 }
 
 .forget-btn-inner {
@@ -2476,7 +2484,7 @@ body {
 }
 
 .contact-info-wrap .contacts-info-inner .contact-icon {
-    color: #FFA800;
+    color: #3DC73C;
 }
 
 .contact-info-wrap .contacts-info-inner p {
