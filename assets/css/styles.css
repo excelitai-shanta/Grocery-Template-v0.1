@@ -1579,14 +1579,8 @@ body {
     height: 30%;
     margin: 10px;
 }
-<<<<<<< HEAD
-
-.product-quick-view-modal .modal-body .product-details .product-color ul li button.orange {
-    color: var(--primary);
-=======
 .product-quick-view-modal .modal-body .footer-right .contact-section{
     margin: 20px 0px;
->>>>>>> 35c38d7ba93ca7ddae80814d02931d19d64aa740
 }
 .product-quick-view-modal .modal-body .footer-right .contact-section .phone-number{
     margin-top: 15px;
