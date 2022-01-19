@@ -1,13 +1,14 @@
 :root {
     --primary: #3DC73C;
     --primary2: #65C21B;
-    --secondary: #9FF348;;
+    --secondary: #9FF348;
+    ;
 
     --dark-primary: #444444;
     --dark-secondary: #939B9E;
     --text-white: #ffffff;
     --light-gray: #E7E7E7;
-    --groceryColor:#3DC73C;
+    --groceryColor: #3DC73C;
     --groceryColor2: #9FF348;
 }
 
@@ -32,6 +33,7 @@ body {
     background-color: #3d9e3d;
     color: white;
 }
+
 .btn-primary2-filled {
     background-color: var(--primary2);
     color: white;
@@ -75,6 +77,7 @@ body {
 .primary-text {
     color: var(--primary) !important;
 }
+
 .primary2-text {
     color: var(--primary2) !important;
 }
@@ -760,7 +763,7 @@ body {
     background-size: contain !important;
 }
 
-.daily-best-sells .ec-card .rating{
+.daily-best-sells .ec-card .rating {
     font-size: 10px;
 }
 
@@ -961,12 +964,12 @@ body {
 
 
 /* -------------- Latest Discounted Products --------------- */
-.latest-discounted-products .discounted-card-inner{
+.latest-discounted-products .discounted-card-inner {
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.latest-discounted-products .discounted-product-card{
+.latest-discounted-products .discounted-product-card {
     background-color: white;
     padding-bottom: 15px;
     border-radius: 20px;
@@ -974,10 +977,10 @@ body {
     position: relative;
 }
 
-.latest-discounted-products .discounted-product-card .discount-percent{
+.latest-discounted-products .discounted-product-card .discount-percent {
     position: absolute;
     top: 0;
-    left: 0 ;
+    left: 0;
     background-color: #F43A21;
     border-radius: 18px 0 18px 0;
     padding: 3px 16px;
@@ -985,20 +988,22 @@ body {
     font-size: 14px;
     z-index: 9999;
 }
-.latest-discounted-products .discounted-product-card h6{
+
+.latest-discounted-products .discounted-product-card h6 {
     font-size: 16px;
     font-weight: 600;
 }
 
-.latest-discounted-products .discounted-product-card .overlay-background{
+.latest-discounted-products .discounted-product-card .overlay-background {
     display: none;
 }
-.latest-discounted-products .discounted-product-card:hover .overlay-background{
-    display: block;   
-    
+
+.latest-discounted-products .discounted-product-card:hover .overlay-background {
+    display: block;
+
 }
 
-.latest-discounted-products .image-overlay-container .overlay-details-link{
+.latest-discounted-products .image-overlay-container .overlay-details-link {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -1011,12 +1016,13 @@ body {
     border-bottom: 1px solid lightgray;
 }
 
-.latest-discounted-products .text-muted{
-    color: #C4C4C4!important;    
+.latest-discounted-products .text-muted {
+    color: #C4C4C4 !important;
 }
-.latest-discounted-products .image-overlay-container .overlay-add-to-bag{
+
+.latest-discounted-products .image-overlay-container .overlay-add-to-bag {
     position: absolute;
-    color: white;    
+    color: white;
     top: 0;
     height: 100%;
     width: 100%;
@@ -1025,11 +1031,11 @@ body {
     padding: 10px 30px !important;
 }
 
-.latest-discounted-products .image-overlay-container .overlay-background button{  
-    background-color: rgba(0, 0, 0, 0.4)!important;
+.latest-discounted-products .image-overlay-container .overlay-background button {
+    background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
-.latest-discounted-products .out-of-stock h2{
+.latest-discounted-products .out-of-stock h2 {
     color: white;
     font-size: 30px !important;
     height: 100%;
@@ -1038,11 +1044,11 @@ body {
     align-items: center;
 }
 
-.latest-discounted-products .ec-card-lg:hover .out-of-stock{
+.latest-discounted-products .ec-card-lg:hover .out-of-stock {
     display: block !important;
 }
 
-.latest-discounted-products .out-of-stock{
+.latest-discounted-products .out-of-stock {
     display: block;
 }
 
@@ -1051,7 +1057,8 @@ body {
     background-repeat: no-repeat !important;
     background-size: contain !important;
 }
-.latest-discounted-products .rating{
+
+.latest-discounted-products .rating {
     font-size: 10px;
 }
 
@@ -1062,12 +1069,15 @@ body {
     border-radius: 35px;
     z-index: 9999;
 }
+
 .latest-discounted-products .slick-prev {
     left: 15px;
 }
+
 .latest-discounted-products .slick-next {
     right: 15px;
 }
+
 .latest-discounted-products .slick-prev:before, .slick-next:before {
     color: #494949;
 }
@@ -1355,56 +1365,14 @@ body {
 
 
 
+
 /* ---------------------- Open Cart - Sidebar ---------------------- */
 .add_to_cart .cart-inner .cart_top {
-    background-color: #E1E1E1;
-    margin-bottom: 0px;
-    padding: 12px 20px;
+    background-color: #f3ffe7;
 }
 
-.add_to_cart .cart-inner .cart_top p {
-    font-weight: 600;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-    color: #464A43;
-}
-.add_to_cart .cart-inner .cart_top .close-cart i {
-    color: #464A43;
-    border: 2px solid #464A43;
-    padding: 3px 5px;
-    font-size: 12px;
-    font-weight: 600;
-    border-radius: 5px;
-}
-
-.add_to_cart .delivery-charge{
-    background-color: #8A8B89;;
-    color: white;
-    padding: 10px 10px;    
-}
-.add_to_cart .delivery-charge p{    
-    font-size: 12px;
-}
-.add_to_cart .delivery-option{    
-    background-color: rgba(107, 107, 107, 0.2);
-    padding: 3px 10px; 
-}
-.add_to_cart .delivery-option span{    
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 10px;    
-}
-
-
-.add_to_cart .cart-inner .cart_media ul.cart_product li{
-    border: none;
-}
-
-
-
-.add_to_cart .cart-inner .cart_media ul.cart_product li .media .media-body .qty-box .input-group {
-    font-size: 30px;
+.add_to_cart .cart-inner .cart_top h3 {
+    font-weight: 500;
 }
 
 .add_to_cart .cart-inner .cart_media ul.cart_product li .media .media-body h6 {
@@ -1416,7 +1384,7 @@ body {
 }
 
 .add_to_cart .cart-inner .cart_media ul.cart_total {
-    background-color: rgba(255, 96, 0, 0.08);
+    background-color: #f3ffe7;
     padding: 0;
 }
 
@@ -1661,8 +1629,8 @@ body {
 
 
 .profile .user-menu-btn .btn:hover {
-    background-color: #3DC73C!important;
-    color: #fff!important;
+    background-color: #3DC73C !important;
+    color: #fff !important;
 }
 
 .profile-update-header h4 {
@@ -1683,16 +1651,19 @@ body {
 .profile-update-inner input {
     margin-bottom: 20px;
 }
-.profile-update-btn .btn{
+
+.profile-update-btn .btn {
     border-color: #3DC73C;
-    color: #3DC73C!important;
+    color: #3DC73C !important;
     transition: all 0.5s ease;
 }
-.profile-update-btn .btn:hover{
-   background: #3DC73C;
-    color: #fff!important;
+
+.profile-update-btn .btn:hover {
+    background: #3DC73C;
+    color: #fff !important;
     transition: all 0.8s ease;
 }
+
 .profile-update-wrapper {
     display: flex;
     justify-content: start;
@@ -3333,7 +3304,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .brand-percentage {
-    background:  #3DC73C;
+    background: #3DC73C;
     width: 40px;
     height: 40px;
     position: relative;
@@ -3563,13 +3534,15 @@ input[type=range]:focus::-ms-fill-upper {
 
     #alphabert-list {
         margin-left: 0;
-    }    
+    }
 }
+
 /* Footer Banner */
-#footer-banner .position-relative{
+#footer-banner .position-relative {
     position: relative;
-} 
-#footer-banner   .foot-banner{
+}
+
+#footer-banner .foot-banner {
     background: url(../images/footer-banner/banner-10.png);
     background-size: cover;
     padding: 84px 78px;
@@ -3581,38 +3554,44 @@ input[type=range]:focus::-ms-fill-upper {
     min-height: 230px;
     margin-top: 20px;
 }
-#footer-banner .foot-ban-right-img{
+
+#footer-banner .foot-ban-right-img {
     position: absolute;
     right: 50px;
     bottom: 0;
     max-width: 40%;
 }
-#footer-banner .footer-share .google-icon img{
+
+#footer-banner .footer-share .google-icon img {
     height: 200px;
     width: 200px;
 }
 
-#footer-banner .footer-share .app-icon img{
-    height:60px;
+#footer-banner .footer-share .app-icon img {
+    height: 60px;
     width: 200px;
     margin-right: 30px;
 }
-#footer-banner .footer-share{
+
+#footer-banner .footer-share {
     display: flex;
     align-items: center;
 }
-#footer-banner .footer-banner-content h3{
-        font-size: 49px;
-        color: #000;
-        padding-bottom: 30px;
+
+#footer-banner .footer-banner-content h3 {
+    font-size: 49px;
+    color: #000;
+    padding-bottom: 30px;
 
 }
-#footer-banner .footer-banner-content p{
-    font-size:18px;
+
+#footer-banner .footer-banner-content p {
+    font-size: 18px;
 }
+
 @media (max-width: 414px) {
-    #footer-banner .footer-share{
-        display:block;
+    #footer-banner .footer-share {
+        display: block;
         align-items: center;
     }
 }
