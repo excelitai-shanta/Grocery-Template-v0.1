@@ -1,6 +1,6 @@
 :root {
-    --primary: #FF6000;
-    --secondary: #FFA800;
+    --primary: #65C21B;
+    --secondary: #C0FC92;
     --dark-primary: #444444;
     --dark-secondary: #939B9E;
     --text-white: #ffffff;
@@ -112,7 +112,7 @@ body {
 
 .ec-card-group .ec-card-lg {
     width: 320px;
-    padding: 5px;
+    padding: 20px;
 }
 
 .ec-card-group .ec-card .ec-card-inner {
@@ -3454,4 +3454,10 @@ input[type=range]:focus::-ms-fill-upper {
     #alphabert-list {
         margin-left: 0;
     }    
+}
+
+
+
+.subcat--banner--section .subcat--banner-img{
+    margin: 2rem;
 }
