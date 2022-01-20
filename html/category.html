@@ -57,6 +57,9 @@
    <!-- -----------------------  Custom CSS for Sidebar and Other Pages ------------------------- -->
    <link rel="stylesheet" href="../assets/css/styles.css">
 
+   <!-- new added css -->
+   <link rel="stylesheet" href="../assets/css/new--added.css">
+
 
 
 </head>
@@ -355,11 +358,42 @@
          </ul>
       </div>
 
-
+     
+      
       <section class="main-content category-closed" id="main-content">
-         <div class="container-fluid profile px-md-5 px-3 mt-3">    
-            <!-- ~~~~filter button starts~~~~~ -->
-            <section class="filter--section mt-5">
+         <div class="container-fluid profile px-md-5 px-3 mt-3"> 
+            <!--~~~~~~category page banner starts~~~~~~-->
+            <section class="category01--banner">
+                     <div class="row">
+                       <div class="col-12">
+                          <div class="category01--banner-wrap">
+                           <img src="../assets/images/category/cat-banner.png" alt="">
+                          </div>
+                       </div>
+                     </div>  
+            </section>   
+      
+
+
+            <!-- product category starts -->
+            <section class="product--category p-3">
+               <div class="container-fluid">
+                  <div class="row mb-5">
+                     <div class="col-md-6 p-2">
+                        <div class="product--category--header">
+                           <h6>
+                              <a href="index.html">Home ></a> <span>Home & Cleaning</span>
+                           </h6>
+                                 <!-- ~~~~filter button starts~~~~~ -->
+
+                              </div>
+                          
+                           </div> 
+                           <!-- end col           -->
+
+
+
+               <section class="filter--section mt-5">
                <div class="container-fluid">
                   <div class="row">
                      <div class="col">
@@ -417,6 +451,7 @@
                                                       </div>
                                                    </div>
                                                 </div>
+                                               
                                              </div>
                                              <div class="mt-3">
                                                 <button class="btn btn-primary-filled px-4">
@@ -438,26 +473,28 @@
                         </div>
 
                      </div>
+                     <div class="sortby--dropdown">
+                        <select class="form-select form-select" aria-label=".form-select-lg example">
+                           <option selected>Sort by:</option>
+                           <option value="1">Oldest</option>
+                           <option value="1">Newest</option>
+                           <option value="1">Price: Low to High</option>
+                           <option value="1">Price:High to Low</option>
+                           <option value="1">Name: A-Z</option>
+                           <option value="1">Name: Z-A</option>
+                           <option value="2">Rating: Low to High</option>
+                           <option value="2">Rating: High to Low</option>
+                        </select>
+                     </div> 
+                     
                   </div>
                </div>
-            </section>
-            <!-- ~~~~filter button ends~~~~~ -->
-
-
-            <!-- product category starts -->
-            <section class="product--category p-3">
-               <div class="container-fluid">
-                  <div class="row mb-5">
-                     <div class="col-md-6 p-2">
-                        <div class="product--category--header">
-                           <h6>
-                              <a href="index.html">Home ></a>
-                              Women
-                           </h6>
-                        </div>
-                     </div>
+               </section>
+               <!-- ~~~~filter button ends~~~~~ -->
+                       
+                 
                      <div class="col-md-6 p-2 d-md-flex justify-content-md-end">
-                        <div class="sortby--dropdown">
+                        <!-- <div class="sortby--dropdown">
                            <select class="form-select form-select" aria-label=".form-select-lg example">
                               <option selected>Sort by:</option>
                               <option value="1">Oldest</option>
@@ -469,85 +506,136 @@
                               <option value="2">Rating: Low to High</option>
                               <option value="2">Rating: High to Low</option>
                            </select>
-                        </div>
+                        </div> -->
                      </div>
-                  </div>
+            
+                        
+                              
                </div>
 
 
                <!-- product ietm starts  -->
-               <div class="product--items">
-                  <div class="ec-card-group">
-                     <div class="ec-card-lg">
-                        <a href="./sub-category.html">
-                           <div class="ec-card-inner">
-                              <img class="img-fluid" src="../assets/images/newCategory/Rectangle 149.png" alt="">
-                              <p>kameez</p>
+               <div class="product_items">
+                  <div class="row">
+                     <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="ec-card-group">
+                           <div class="ec-card-lg">
+                              <a href="./sub-category.html">
+                                 <div class="ec-card-inner">
+                                    <img src="../assets/images/category/image 156.png" alt="">
+                                    <p>Laundry</p>
+                                 </div>
+                              </a>
+                           
                            </div>
-                        </a>
+                        </div>
                      </div>
-                     <div class="ec-card-lg">
-                        <a href="./sub-category.html">
-                           <div class="ec-card-inner">
-                              <img class="img-fluid" src="../assets/images/newCategory/Rectangle 150.png" alt="">
-                              <p>kameez</p>
+                     <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="ec-card-group">
+                           <div class="ec-card-lg">
+                              <a href="./sub-category.html">
+                                 <div class="ec-card-inner">
+                                    <img src="../assets/images/category/image 157.png" alt="">
+                                    <p>Dish Detergents</p>
+                                 </div>
+                              </a>
+                           
                            </div>
-                        </a>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="ec-card-group">
+                           <div class="ec-card-lg">
+                              <a href="./sub-category.html">
+                                 <div class="ec-card-inner">
+                                    <img src="../assets/images/category/image 158.png" alt="">
+                                    <p>Air Freshners</p>
+                                 </div>
+                              </a>
+                           
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="ec-card-group">
+                           <div class="ec-card-lg">
+                              <a href="./sub-category.html">
+                                 <div class="ec-card-inner">
+                                    <img src="../assets/images/category/image 159.png" alt="">
+                                    <p>Napkins &  Paper products</p>
+                                 </div>
+                              </a>
+                           
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="ec-card-group">
+                           <div class="ec-card-lg">
+                              <a href="./sub-category.html">
+                                 <div class="ec-card-inner">
+                                    <img class="img-fluid" src="../assets/images/category/image 160.png" alt="">
+                                    <p>Cleaning Supplies</p>
+                                 </div>
+                              </a>
+                           
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="ec-card-group">
+                           <div class="ec-card-lg">
+                              <a href="./sub-category.html">
+                                 <div class="ec-card-inner">
+                                    <img src="../assets/images/category/image 161.png" alt="">
+                                    <p>Shoe Care kit</p>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="ec-card-group">
+                           <div class="ec-card-lg">
+                              <a href="./sub-category.html">
+                                 <div class="ec-card-inner">
+                                    <img src="../assets/images/category/image 162.png" alt="">
+                                    <p>Pest Control</p>
+                                 </div>
+                              </a>
+                           
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="ec-card-group">
+                           <div class="ec-card-lg">
+                              <a href="./sub-category.html">
+                                 <div class="ec-card-inner">
+                                    <img src="../assets/images/category/image 163.png" alt="">
+                                    <p>Trash Bags</p>
+                                 </div>
+                              </a>
+                           
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="ec-card-group">
+                           <div class="ec-card-lg">
+                              <a href="./sub-category.html">
+                                 <div class="ec-card-inner">
+                                    <img src="../assets/images/category/image 164.png" alt="">
+                                    <p>Kitchen Accessories</p>
+                                 </div>
+                              </a>
+                           
+                           </div>
+                        </div>
+                     </div>
 
-                     </div>
-                     <div class="ec-card-lg">
-                        <a href="./sub-category.html">
-                           <div class="ec-card-inner">
-                              <img class="img-fluid" src="../assets/images/newCategory/Rectangle 151.png" alt="">
-                              <p>kameez</p>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="ec-card-lg">
-                        <a href="./sub-category.html">
-                           <div class="ec-card-inner">
-                              <img class="img-fluid" src="../assets/images/newCategory/Rectangle 152.png" alt="">
-                              <p>kameez</p>
-                           </div>
-                        </a>
-
-                     </div>
-                     <div class="ec-card-lg">
-                        <a href="./sub-category.html">
-                           <div class="ec-card-inner">
-                              <img class="img-fluid" src="../assets/images/newCategory/Rectangle 153.png" alt="">
-                              <p>kameez</p>
-                           </div>
-                        </a>
-
-                     </div>
-                     <div class="ec-card-lg">
-                        <a href="./sub-category.html">
-                           <div class="ec-card-inner">
-                              <img class="img-fluid" src="../assets/images/newCategory/Rectangle 154.png" alt="">
-                              <p>kameez</p>
-                           </div>
-                        </a>
-
-                     </div>
-                     <div class="ec-card-lg">
-                        <a href="./sub-category.html">
-                           <div class="ec-card-inner">
-                              <img class="img-fluid" src="../assets/images/newCategory/Rectangle 155.png" alt="">
-                              <p>kameez</p>
-                           </div>
-                        </a>
-
-                     </div>
-                     <div class="ec-card-lg">
-                        <a href="./sub-category.html">
-                           <div class="ec-card-inner">
-                              <img class="img-fluid" src="../assets/images/newCategory/Rectangle 156.png" alt="">
-                              <p>kameez</p>
-                           </div>
-                        </a>
-                     </div>
                   </div>
+                 
                   <div class="container-fluid">
 
                   </div>
@@ -557,6 +645,7 @@
          <!-- product ietm edns  -->
          <!-- end product--category--items--inner  -->
          </div>
+         </section>
 
          <!-- footer start -->
          <footer>
@@ -840,11 +929,6 @@
       <!-- Add to cart bar end-->
 
    </main>
-
-
-
-
-
 
 
 
