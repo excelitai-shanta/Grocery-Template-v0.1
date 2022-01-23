@@ -1055,6 +1055,10 @@ body {
 
 
 /* -------------- Latest Discounted Products --------------- */
+.latest-discounted-products-slider-cont{
+    padding-left: 40px;
+    padding-right: 40px;
+}
 .latest-discounted-products .discounted-card-inner {
     background-repeat: no-repeat;
     background-size: cover;
@@ -1166,11 +1170,11 @@ body {
 }
 
 .latest-discounted-products .slick-prev {
-    left: 15px;
+    left: -35px;
 }
 
 .latest-discounted-products .slick-next {
-    right: 15px;
+    right: -40px;
 }
 
 .latest-discounted-products .slick-prev:before, .slick-next:before {
