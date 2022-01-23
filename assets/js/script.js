@@ -3166,14 +3166,13 @@ function toggleNavIconBlock(){
 function categoryFilterToggle() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
 
   if (dots.style.display === "none") {
-    dots.style.display = "inline";
+    dots.style.display = "block";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    moreText.style.display = "inline";
+    moreText.style.display = "block";
   }
 }
 
